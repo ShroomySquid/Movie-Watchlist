@@ -1,0 +1,153 @@
+
+body, header {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-family: inter;
+    font-size: 16px;
+}
+header {
+    background-image: url("./imagesHTML/moivePosters.jpg");
+    background-color: #535353;
+    background-blend-mode: multiply;
+    height: 300px;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#find-film, #watchlist-link {
+    padding: 0;
+    margin: auto 0;
+}
+
+#find-film {
+    font-size: 4rem;
+}
+
+#watchlist-link {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+#search-bar {
+position: absolute;
+top: 280px;
+width: 100%;
+left: 20%;
+display: flex;
+flex-direction: row;
+}
+
+#input-search, #search-btn, #extra-search {
+    margin: 0;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    border: 1px solid gray;
+}
+
+#input-search {
+    border-radius: 8px 0px 0px 8px;
+}
+
+#search-btn {
+    width: 15%;
+    min-width: 96px;
+    max-width: 176px;
+    height: 41px;
+}
+
+#search-btn:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+#extra-search {
+    border-radius: 0px 8px 8px 0px;
+    height: 41px;
+}
+.extra-options {
+    margin: 0 1rem;
+}
+
+.films {
+    margin-top: 8rem;
+}
+
+.fa-solid {
+    font-size: 8rem;
+    color: lightgrey;
+}
+
+#explore {
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+    color: lightgrey;
+}
+
+#movie-img {
+    width: 200px;
+    height: 300px;
+}
+
+.info-img, #time-type-watchlist, #title-score {
+    display: flex;
+    flex-direction: row;
+}
+#time-type-watchlist {
+    justify-content: space-between;
+}
+#movie-title {
+    padding-right: 1rem;
+}
+
+.info-img {
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.film-info {
+    width: 342px;
+    margin: 1rem;
+    padding: none;
+}
+
+hr {
+    width: 600px;
+    margin: 1.5rem auto;
+}
+
+#star {
+    color: gold;
+}
+
+#plot {
+    color: #6B7280;
+    text-align: start;
+    line-height: 1.5rem;
+}
+
+.hide {
+    display: none;
+}
+
+.watchlist-btn {
+    border: none;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+
+.watchlist-btn:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
